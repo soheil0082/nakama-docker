@@ -49,7 +49,7 @@ local function check_key(context, data)
             value = nk.json_decode(object),
             key = key,
             user_id = id,
-            permissionRead = 2
+            permission_read = 2
           }
         })
       else
@@ -59,7 +59,7 @@ local function check_key(context, data)
             value = nk.json_decode(object),
             key = key,
             user_id = "8e3e162c-2ee9-44da-bedc-d15834ef6e1a",
-            permissionRead = 2
+            permission_read = 2
           }
         })
       end
